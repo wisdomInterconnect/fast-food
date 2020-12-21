@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+    sans-serif;
+}
+.title hr{
+    color: brown;
+    width: 60px;
+    margin: auto;
+    margin-top: 0;
+    height: 2.5px;
+}
+.bor{
+     border: 3px solid brown;
+     border-radius: 5px;
+     width: 290px;
+     height: 150px;
+     padding: 0;
+}
+.menu{
+    width: 45%;
+    margin: auto;
+}
+.menu-item{
+    height: 180px;
+}
+
+@media(max-width:1200px){
+   .menu-item {
+       height: 400px;
+   }
+}
+@media(max-width:280px) {
+    .menu-item {
+        height: 450px;
+    }
+}
